@@ -1,0 +1,109 @@
+body {
+
+    background-color:rgb(214, 214, 226);
+    text-align:center;
+    font-family: 'Bona Nova', serif;
+    margin-top:0%;
+}
+
+.top-container {
+
+    background-color:lavender;
+    position: relative;
+    padding-top: 5%;
+    height: 100%;
+    
+}
+
+h1 {
+    
+    font-family: 'Sacramento', cursive;
+}
+ h2 {
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ h3 {
+    font-family: 'Montserrat', sans-serif;
+ }
+
+.middle-container {
+
+        
+
+}
+
+.bottom-container {
+
+
+}
+
+span {
+
+    text-decoration: underline;
+}
+
+
+.top-cloud {
+
+    position:absolute;
+    right: 35%;
+    top: 7%;
+}
+
+.bottom-cloud {
+
+    position:absolute;
+    left: 35%;
+}
+
+/* block elements don't let you put other elements on the same line. like:
+    p, div, h1, 
+    
+    inline elements let you put different elements on the same line, like:
+    span, img, a
+    but they won't let you define the width
+    
+    inline-block elements allow you to put elements on the same line and also define their width
+    img are kind of that by default
+
+    display:none makes an element dissapear out of the flow of the document
+
+    if you want to make an element disspear (f.e. if you want the answer to a question to be hidden first, 
+    you can use display:none or visibility: hidden, the second one hides the element, but it is still in the flow, 
+    so margins, etc. still apply
+    */
+
+    /*for inline elements: width + height = content
+      for block elements: width = 100%, height = content
+      
+      the order is defined by the html code
+      
+      children sit on top of parents
+
+      z axis= which element is on top of which
+
+      POSITION: 
+
+      STATIC =default, just html without css
+
+      RELATIVE = position the element relative to how it would have been with static
+
+      left:30px means 30px rght from where it was before
+
+      it doesn't affect the other elements, they can overlap, the old position is still influencing the surrounding elements
+      
+      ABSOLUTE = we are positioning the element relative to its parent. 
+                right:30px means 30px from the right of the parent
+                it does take the element out of the flow of the document
+
+      FIXED = stays where it is even if you scroll, like a navgar or sidebar
+
+      
+      CENTERING
+
+        Text-align only works if there isn't a set width
+
+        margin:
+      */
+
